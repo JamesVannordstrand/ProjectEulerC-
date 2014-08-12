@@ -11,8 +11,8 @@ int get_Current_Product(int First, int Last, string Big_Number){
 
 int main(){
 
-	int Current_Product, Greatest_Product, First = 0, Last = 4;
-	int Consecutive_Five[4];
+  int Current_Product, Greatest_Product, First = 0, Last = 4;
+  int Consecutive_Five[4];
 
   string Big_Number = 
   "73167176531330624919225119674426574742355349194934

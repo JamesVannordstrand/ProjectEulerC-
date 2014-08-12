@@ -8,15 +8,15 @@ int main(){
 
   while(Count < 10001){
     if(is_Prime(Number)){
-     	Count++;
-     	Prime = Number;
+      Count++;
+      Prime = Number;
     }
     Number++;
- 	}
+  }
     
- 	cout << Prime;
+  cout << Prime;
 
- 	return 0;
+  return 0;
 }
 
 bool is_Prime(int Number){
